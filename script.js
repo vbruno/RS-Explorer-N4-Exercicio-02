@@ -89,7 +89,7 @@ function inserirResultadoAluno() {
 
 function calcularMediaEstudantes(estudantes) {
   let media = 0;
-  for (estudante of estudantes) {
+  for (let estudante of estudantes) {
     media = calcularMedia(estudante.nota1, estudante.nota2);
     if (media >= 7) {
       alert(
